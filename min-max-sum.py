@@ -19,8 +19,10 @@ def min_max_sum(arr):
     for num in arr:
         if num<min:
             min = num
+            print("min:",min)
         if num>max:
             max = num
+            print("max:",max)
     min_sum = total - max
     max_sum = total - min
 
